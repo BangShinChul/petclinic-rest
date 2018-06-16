@@ -20,4 +20,9 @@ class PetClinicController {
     ResponseEntity getName(){
         return ResponseEntity.ok(petClinicName)
     }
+
+	@GetMapping("/test")
+    ResponseEntity getName(){
+        return ResponseEntity.ok("Test is run!")
+    }    
 }
