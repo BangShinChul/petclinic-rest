@@ -22,7 +22,7 @@ class PetClinicController {
     }
 
 	@GetMapping("/test")
-    ResponseEntity getName(){
+    ResponseEntity getTest(){
         return ResponseEntity.ok("Test is run!")
     }    
 }
