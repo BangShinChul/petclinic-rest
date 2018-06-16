@@ -24,5 +24,10 @@ class PetClinicController {
 	@GetMapping("/test")
     ResponseEntity getTest(){
         return ResponseEntity.ok("Test is run!")
-    }    
+    }
+
+	@GetMapping("/dev")
+    ResponseEntity getDev(){
+        return ResponseEntity.ok("Dev page is work!")
+    }        
 }
